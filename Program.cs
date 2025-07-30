@@ -72,7 +72,7 @@ builder.Services.AddAuthentication(options =>
         ValidateAudience = false
     };
 });
-//ddd
+
 
 var app = builder.Build();
 
